@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký học viên</title>
+    <style>
+        .register{
+            background: #fffcad;
+            width: 500px;
+        }
+        .title{
+            background: #d5fcd7;
+            color: blue;
+        }
+        td{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="dangkyhocvien.html" method="get" class="register" >
+        <table>
+            <h1 class="title">ĐĂNG KÝ HỌC VIÊN</h1>
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" name="name" id="" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td><input type="text" name="birthday" id="" style="width: 150px;"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" name="gender" id="">Nam
+                    <input type="radio" name="gender" id="">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" name="" id="" style="width: 200px; height: 40px;"></td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td>
+                    <select>
+                        <option value=""> - Chọn Lớp -</option>
+                        <option value="">1</option>
+                        <option value=""> 2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" id=""></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="number" name="phone" id=""></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Đăng ký" style="background: #dcd9d2">
+                    <input type="submit" value="Nhập lại" style="background: #dcd9d2">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

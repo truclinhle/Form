@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form thong tin so thich</title>
+    <style>
+        .hobby {
+            color: #ff4d1c;
+        }
+
+        .button {
+            background: #c2c0bb;
+        }
+        .title{
+            color:wheat ;
+            background: #ff4d1c;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="sothich.html" method="get" name="sothich" style="width: 450px;">
+        <table>
+            <h1 class="title">SỞ THÍCH CỦA BẠN</h1>
+            <tr>
+                <td style="color: blue;">Họ và tên </td>
+                <td><input type="text" name="name" id="" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td style="color: blue;">Email </td>
+                <td><input type="text" name="email" id=""></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td style="color: blue;">Sở thích </td>
+                <td class="hobby"><input type="checkbox" name="hobby" id="">Thể thao</td>
+                <td class="hobby"> <input type="checkbox" name="hobby" id="">Âm nhạc</td>
+                <td class="hobby"> <input type="checkbox" name="hobby" id="">Đọc sách </td>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="hobby"><input type="checkbox" name="hobby" id="">Lướt web</td>
+                <td class="hobby"> <input type="checkbox" name="hobby" id="">Chơi game</td>
+                <td class="hobby"><input type="checkbox" name="hobby" id="">Điện ảnh</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="hobby"> <input type="checkbox" name="hobby" id="">Du lịch</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Gửi thông tin" style="background: #dcd9d2">
+                    <input type="reset" value="Nhập lại" style="background: #dcd9d2">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
